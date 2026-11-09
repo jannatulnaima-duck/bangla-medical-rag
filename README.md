@@ -42,7 +42,7 @@
 A medical RAG system can fail in two ways: it retrieves the wrong document, or it retrieves the right one and still produces an answer the document does not support. This repository contains a language-stratified benchmark that measures both for English and Bangla. We build a parallel English-Bangla dataset on PubMedQA (200 questions, with the Bangla questions machine-translated by NLLB-200), score three multilingual retrievers (bge-m3, multilingual-e5-base and LaBSE) with Recall@k, MRR and nDCG, and score the faithfulness of the answers generated from their retrieved passages with a multilingual NLI model. Oracle and random-passage baselines, a BM25 baseline, a translate-then-retrieve pipeline and paired bootstrap tests are included.
 
 <p align="center">
-  <img src="pipeline" alt="Framework overview" width="60%">
+  <img src="images/pipeline.png" alt="Framework overview" width="60%">
 </p>
 :star2: Official implementation to reproduce the main results of our paper **Does Better Retrieval Mean Better Answers? Benchmarking Multilingual Embeddings for Bangla-English Medical RAG**.
 
