@@ -41,8 +41,9 @@
 
 A medical RAG system can fail in two ways: it retrieves the wrong document, or it retrieves the right one and still produces an answer the document does not support. This repository contains a language-stratified benchmark that measures both for English and Bangla. We build a parallel English-Bangla dataset on PubMedQA (200 questions, with the Bangla questions machine-translated by NLLB-200), score three multilingual retrievers (bge-m3, multilingual-e5-base and LaBSE) with Recall@k, MRR and nDCG, and score the faithfulness of the answers generated from their retrieved passages with a multilingual NLI model. Oracle and random-passage baselines, a BM25 baseline, a translate-then-retrieve pipeline and paired bootstrap tests are included.
 
-![Evaluation pipeline][pipeline]
-
+<p align="center">
+  <img src="pipeline" alt="Framework overview" width="60%">
+</p>
 :star2: Official implementation to reproduce the main results of our paper **Does Better Retrieval Mean Better Answers? Benchmarking Multilingual Embeddings for Bangla-English Medical RAG**.
 
 **If you use our code, please consider citing:**
@@ -50,7 +51,7 @@ A medical RAG system can fail in two ways: it retrieves the wrong document, or i
     @unpublished{chakraborty2026betterretrieval,
       title={Does Better Retrieval Mean Better Answers? Benchmarking Multilingual Embeddings for Bangla-English Medical RAG},
       author={Chakraborty, Trina and Naima, Jannatul and Chowdhury, Rim and Khatun, Mst Tuly},
-      note={Manuscript},
+      note= {Future Machine Learning and Data Science (FMLDS 2026, Japan)},
       year={2026}
     }
 
@@ -108,7 +109,7 @@ Distributed under the MIT License. PubMedQA is distributed under its own [MIT li
 
 ## Contact
 
-Jannatul Naima - jannatulnaima.cse.cu@gmail.com & Trina Chakraborty - trinasust5002@gmail.com
+Jannatul Naima - jannatulnaima.cse.cu@gmail.com & Trina Chakraborty - trinasust5002@gmail.com.
 Contact us via email or create github issues if you have any questions/requests. Thanks!
 
 
