@@ -44,7 +44,7 @@ A medical RAG system can fail in two ways: it retrieves the wrong document, or i
 <p align="center">
   <img src="images/pipeline.png" alt="Framework overview" width="40%">
 </p>
-:star2: Official implementation to reproduce the main results of our paper **Does Better Retrieval Mean Better Answers? Benchmarking Multilingual Embeddings for Bangla-English Medical RAG**.
+:star2: Official implementation to reproduce the main results of our paper "Does Better Retrieval Mean Better Answers? Benchmarking Multilingual Embeddings for Bangla-English Medical RAG".
 
 **If you use our code, please consider citing:**
 
